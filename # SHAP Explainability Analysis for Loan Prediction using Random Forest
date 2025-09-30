@@ -1,0 +1,19 @@
+## 📌 Project Description
+This project demonstrates the use of **SHAP (SHapley Additive exPlanations)** to explain predictions from a **Random Forest classifier** trained on a loan prediction dataset.  
+The goal is to make the model's decisions interpretable by analyzing feature contributions for individual predictions and globally across the dataset.
+
+---
+
+## 🛠️ Instructions to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/SHAP_Report_Project.git
+SHAP_Report_Project/
+│
+├── Loan_Prediction_SHAP.ipynb       # Main notebook
+├── final_pipeline.pkl               # Saved Random Forest pipeline
+├── SHAP_report_final.pdf            # PDF report with plots
+├── screenshots/                     # Folder with all plot images
+├── README.md                        # Project overview
+├── requirements.txt                 # Python dependencies
